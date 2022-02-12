@@ -7,6 +7,19 @@ public class contato {
 	private String nome;
 	private int idade;
 	private Date DataCadastro;
+	public contato(int id, String nome, int idade, Date DataCadastro) {
+		this.id=id;
+		this.nome=nome;
+		this.idade=idade;
+		this.DataCadastro=DataCadastro;
+		
+	}
+	
+	public contato() {
+		
+		
+		
+	}
 	public int getId() {
 		return id;
 	}
